@@ -1,0 +1,58 @@
+
+.nav_one {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins';
+
+
+    .left {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+    }
+    
+
+    .right {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    .call_button{
+        height: 29px;
+        width: 140px;
+        top: 5px;
+        left: 1249px;
+        border: 1px;
+    }
+    .nav_left{
+        width: 150px;
+        height: 27.29px;
+        margin-left: 51px ;
+    }
+   
+      
+}
+.nav_two{
+    justify-content: space-between;
+    display: flex;
+
+    .nav_three{
+        display: flex;
+        gap: 45px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #10385B;
+
+        // @include mobile{
+        //     width: 50%;
+        //     flex-direction: column;
+        // }
+        
+    }
+
+    
+
+}
+ 
+
