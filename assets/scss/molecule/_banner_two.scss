@@ -175,3 +175,175 @@ button {
    color: white;
 }
 }
+
+
+
+
+.bnx-card {
+   margin-bottom: -100px;
+}
+
+// benifits end
+.bnx-sixth-section-div {
+   margin-top: -150px;
+   z-index: 20;
+   position: relative;
+
+
+   .bnx-sixth-section {
+       background-color: #fff;
+       margin: 0 2.5rem;
+       box-shadow: 0px 3px 13px 2px #00000024;
+       padding: 0 1rem;
+       ;
+   }
+
+}
+
+
+
+
+
+.bnx-demo-section {
+   display: flex;
+}
+
+.bnx-demo-section-top {
+   display: flex;
+}
+
+.btn-demo-button {
+   button {
+       margin-left: 40px;
+       background: #10385B;
+       color: black;
+   }
+}
+
+
+// course value
+.bnx-course-value-session {
+   background: #F1F5F8;
+   margin: auto;
+   padding-top: 200px;
+   margin-top: -160px;
+   position: relative;
+   z-index: 19;
+
+   .bnx-course-value {
+       display: flex;
+       justify-content: space-around;
+
+       .bnx-course-icon-tetx {
+           text-align: center;
+           justify-content: space-between;
+
+           h5 {
+               color: #10385B;
+               text-align: center;
+               font-family: Poppins;
+               font-size: 16px;
+               font-style: normal;
+               font-weight: 400;
+               line-height: normal;
+           }
+
+           img {
+               width: 37px;
+               height: 31.295px;
+               flex-shrink: 0;
+           }
+
+       }
+
+
+   }
+}
+
+
+
+// intake section
+
+.bnx-intake-section {
+
+   background: #071D31;
+   padding: 2rem;
+
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6,
+   p {
+       color: rgb(255, 255, 255);
+       margin: 0;
+   }
+
+   .p-sm {
+       font-size: 0.875rem;
+
+   }
+
+   .p-grey {
+       color: #dbdbdb;
+   }
+
+
+   .box-full {
+       background: #03549F;
+       padding: 1rem 2rem;
+
+       h6 {
+           font-size: 18px;
+           font-weight: 600;
+           padding: 0.5rem 1rem 0.5rem 1rem;
+           border-left: 2px solid #04BBF2;
+       }
+   }
+
+   .half-box-parent {
+       display: grid;
+       grid-template-columns: 48% 48%;
+       grid-gap: 4%;
+
+       @media (max-width: 768px) {
+           grid-template-columns: 98%;
+           grid-gap: 4%;
+       }
+
+   }
+
+   .half-full {
+       background: #00315e;
+       padding: 1rem 2rem;
+
+       h6 {
+           font-size: 18px;
+           font-weight: 600;
+           padding: 0.5rem 1rem 0.5rem 1rem;
+           border-left: 2px solid #04BBF2;
+       }
+
+       button {
+           background: none;
+           border: none;
+
+           img {
+               width: 2rem;
+               color: #04BBF2;
+           }
+       }
+   }
+
+
+}
+
+
+
+
+.bnx-second-row-right-below {
+   width: 100%;
+
+
+}

@@ -1,0 +1,52 @@
+
+.blue-text {
+    color: black;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 12px;
+}
+
+
+
+// benifits start
+
+
+.bnx-benifits-section {
+    background-image: url(../photos/Backgrounds/benifits.png);
+    width: 100%;
+    height: 527px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 1.5rem;
+    padding-top: 4rem;
+
+    h3 {
+        color: rgb(255, 255, 255);
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 2.52px;
+        text-transform: uppercase;
+    }
+
+    .bnx-benifits-section-row {
+        display: flex;
+
+        h2 {
+            color: rgb(255, 255, 255);
+            font-family: Poppins;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            text-transform: capitalize;
+        }
+    }
+
+
+}

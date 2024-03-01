@@ -6,6 +6,22 @@
   margin: 0% auto;
   align-items: center; }
 
+body {
+  font-family: poppins; }
+  body h3 {
+    font-size: 2.5rem; }
+  body h4 {
+    font-size: 2rem; }
+  body h5 {
+    font-size: 1.875rem;
+    font-weight: 600; }
+  body h6 {
+    font-size: 1.5rem; }
+  body p {
+    font-size: 1rem; }
+  body .p-sm {
+    font-size: 0.875rem; }
+
 .banner {
   background-image: url("../../../assets/images/icons/Rectangle_4012.jpg");
   background-size: cover;
@@ -15,6 +31,78 @@
   padding: 50px; }
   .banner p {
     width: 50%; }
+
+footer {
+  width: 100%; }
+
+.bnx-footer-1 {
+  text-align: center;
+  display: flex;
+  justify-content: center; }
+  .bnx-footer-1 h5 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding: 10px; }
+
+.bnx-footer-icon {
+  text-align: center;
+  display: flex;
+  justify-content: center; }
+  .bnx-footer-icon img {
+    padding-top: 5px;
+    padding-bottom: 5px; }
+
+.bnx-footer-copy {
+  justify-content: center;
+  display: flex;
+  text-align: center; }
+  .bnx-footer-copy h5 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; }
+
+.bnx-about {
+  width: 100%;
+position: relative; }
+
+.footer-main {
+  display: grid;
+  padding: 100px 2rem 3rem 2rem;
+  background: linear-gradient(72deg, #23133F 9.81%, #08205C 50.72%, #01326A 93.38%);
+  grid-template-columns: 14% 32% 14% 32%;
+  grid-gap: 2%; }
+  @media (max-width: 768px) {
+    .footer-main {
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 50% 50%; } }
+  @media (max-width: 576px) {
+    .footer-main {
+      grid-template-columns: 100%;
+      grid-template-rows: 25% 25%; } }
+  .footer-main .f-sec1 {
+    display: flex;
+    flex-direction: column; }
+  .footer-main .f-sec2 {
+    display: flex;
+    flex-direction: row; }
+  .footer-main p {
+    color: black;
+    font-weight: 600;
+    margin-bottom: 1.25rem; }
+  .footer-main a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px; }
+  .footer-main .border-rght {
+    border-right: 1px solid #6b6b6b; }
 
 .footer-main {
   display: grid;
@@ -46,6 +134,114 @@
     font-size: 15px; }
   .footer-main .border-rght {
     border-right: 1px solid #6b6b6b; }
+
+.bnx-about-session {
+  width: 100%;
+  background: linear-gradient(72deg, #23133F 9.81%, #08205C 50.72%, #01326A 93.38%);
+  width: 100%;
+  display: flex;
+  justify-content: space-around; }
+
+.bnx-about-one {
+  padding-top: 94px;
+  padding-bottom: 100px; }
+  .bnx-about-one h3 {
+    color: black;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; }
+  .bnx-about-one h2 {
+    color: black;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; }
+
+.bnx-aboutvector59 {
+  padding-top: 137px;
+  padding-left: 66px; }
+
+.bnx-about-three-row {
+  display: flex; }
+  .bnx-about-three-row h3 {
+    color: black;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; }
+
+.bnx-about-three {
+  padding-top: 94px;
+  padding-left: 52px; }
+  .bnx-about-three h2 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; }
+
+.bnx-about-seven {
+  padding-top: 94px;
+  padding-left: 52px; }
+  .bnx-about-seven h2 {
+    color: black;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; }
+
+.bnx-about-three-row-last {
+  display: flex; }
+
+.bnx-about-three-row-last-left h3 {
+  color: black;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal; }
+
+#last-card {
+  background-color: #2B98F7; }
+
+.col-last {
+  text-align: center; }
+
+.bnx-about-three-row-last-right {
+  padding-top: 20px; }
+  .bnx-about-three-row-last-right h3 {
+    color: black;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 35px; }
+
+.bnx-subscribe {
+  background-color: #1D7AD0;
+  color: #ffffff;
+  padding: 2rem;
+  left: 5%;
+  top:-85px;
+  right: 10%;
+  position: absolute;
+  overflow: auto; }
+  .bnx-subscribe .input-group {
+    margin: 0; }
+  .bnx-subscribe button {
+    background: #10385B;
+    color: white;
+    border: none; }
+  .bnx-subscribe .subscribe-search-bar {
+    display: grid;
+    align-items: center; }
 
 .bnx-section-four-head {
   padding-top: 40px;
@@ -164,39 +360,208 @@
   background: #10385B;
   color: white; }
 
-.nav_one {
-  display: flex;
-  justify-content: space-between;
-  font-family: 'Poppins'; }
-  .nav_one .left {
-    display: flex;
-    gap: 30px;
-    align-items: center; }
-  .nav_one .right {
-    display: flex;
-    gap: 10px;
-    align-items: center; }
-  .nav_one .call_button {
-    height: 29px;
-    width: 140px;
-    top: 5px;
-    left: 1249px;
-    border: 1px; }
-  .nav_one .nav_left {
-    width: 150px;
-    height: 27.29px;
-    margin-left: 51px; }
+.bnx-card {
+  margin-bottom: -100px; }
 
-.nav_two {
-  justify-content: space-between;
+.bnx-sixth-section-div {
+  margin-top: -150px;
+  z-index: 20;
+  position: relative; }
+  .bnx-sixth-section-div .bnx-sixth-section {
+    background-color: #fff;
+    margin: 0 2.5rem;
+    box-shadow: 0px 3px 13px 2px #00000024;
+    padding: 0 1rem; }
+
+.bnx-demo-section {
   display: flex; }
-  .nav_two .nav_three {
+
+.bnx-demo-section-top {
+  display: flex; }
+
+.btn-demo-button button {
+  margin-left: 40px;
+  background: #10385B;
+  color: black; }
+
+.bnx-course-value-session {
+  background: #F1F5F8;
+  margin: auto;
+  padding-top: 200px;
+  margin-top: -160px;
+  position: relative;
+  z-index: 19; }
+  .bnx-course-value-session .bnx-course-value {
     display: flex;
-    gap: 45px;
-    font-weight: 400;
+    justify-content: space-around; }
+    .bnx-course-value-session .bnx-course-value .bnx-course-icon-tetx {
+      text-align: center;
+      justify-content: space-between; }
+      .bnx-course-value-session .bnx-course-value .bnx-course-icon-tetx h5 {
+        color: #10385B;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal; }
+      .bnx-course-value-session .bnx-course-value .bnx-course-icon-tetx img {
+        width: 37px;
+        height: 31.295px;
+        flex-shrink: 0; }
+
+.bnx-intake-section {
+  background: #071D31;
+  padding: 2rem; }
+  .bnx-intake-section h1,
+  .bnx-intake-section h2,
+  .bnx-intake-section h3,
+  .bnx-intake-section h4,
+  .bnx-intake-section h5,
+  .bnx-intake-section h6,
+  .bnx-intake-section p {
+    color: white;
+    margin: 0; }
+  .bnx-intake-section .p-sm {
+    font-size: 0.875rem; }
+  .bnx-intake-section .p-grey {
+    color: #dbdbdb; }
+  .bnx-intake-section .box-full {
+    background: #03549F;
+    padding: 1rem 2rem; }
+    .bnx-intake-section .box-full h6 {
+      font-size: 18px;
+      font-weight: 600;
+      padding: 0.5rem 1rem 0.5rem 1rem;
+      border-left: 2px solid #04BBF2; }
+  .bnx-intake-section .half-box-parent {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-gap: 4%; }
+    @media (max-width: 768px) {
+      .bnx-intake-section .half-box-parent {
+        grid-template-columns: 98%;
+        grid-gap: 4%; } }
+  .bnx-intake-section .half-full {
+    background: #00315e;
+    padding: 1rem 2rem; }
+    .bnx-intake-section .half-full h6 {
+      font-size: 18px;
+      font-weight: 600;
+      padding: 0.5rem 1rem 0.5rem 1rem;
+      border-left: 2px solid #04BBF2; }
+    .bnx-intake-section .half-full button {
+      background: none;
+      border: none; }
+      .bnx-intake-section .half-full button img {
+        width: 2rem;
+        color: #04BBF2; }
+
+.bnx-second-row-right-below {
+  width: 100%; }
+
+.bnx-place-section {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  justify-content: space-around;
+  background: #E9E9E9;
+  padding: 1rem 1.5rem; }
+  @media (max-width: 768px) {
+    .bnx-place-section {
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 33.33% 33.33% 33.33%; } }
+  @media (max-width: 576px) {
+    .bnx-place-section {
+      grid-template-columns: 100%;
+      grid-template-rows: 20% 20% 20% 20% 20%; } }
+
+.bnx-card {
+  padding-bottom: 150px; }
+  .bnx-card h1 {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; }
+  .bnx-card p {
+    color: #666;
+    font-family: Poppins;
     font-size: 14px;
-    line-height: 21px;
-    color: #10385B; }
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; }
+
+.testiomial-title {
+  text-align: center; }
+  .testiomial-title h4 {
+    font-size: 28px;
+    font-weight: 600; }
+  .testiomial-title p {
+    font-size: 14px;
+    font-weight: 400; }
+
+#testimonialCarousel h4 {
+  font-size: 18px;
+  color: #10385B;
+  font-weight: 600; }
+#testimonialCarousel p {
+  font-size: 0.875rem; }
+#testimonialCarousel .testimonial-card-sub {
+  background: #f6f6f6;
+  padding: 2rem 2rem 3rem 2rem; }
+#testimonialCarousel img {
+  margin-left: 1.875rem;
+  margin-bottom: -1.5rem; }
+#testimonialCarousel a {
+  text-decoration: none; }
+
+.req-a-demo-sec {
+  align-items: center; }
+  .req-a-demo-sec .req-d-col2 {
+    border: 1px solid #e5e5e5;
+    border-width: 0 0 0 1px; }
+  .req-a-demo-sec button {
+    background: #10385B;
+    color: white;
+    border: none; }
+
+.blue-text {
+  color: black;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  padding-top: 12px; }
+
+.bnx-benifits-section {
+  background-image: url(../photos/Backgrounds/benifits.png);
+  width: 100%;
+  height: 527px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 1.5rem;
+  padding-top: 4rem; }
+  .bnx-benifits-section h3 {
+    color: white;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.52px;
+    text-transform: uppercase; }
+  .bnx-benifits-section .bnx-benifits-section-row {
+    display: flex; }
+    .bnx-benifits-section .bnx-benifits-section-row h2 {
+      color: white;
+      font-family: Poppins;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      text-transform: capitalize; }
 
 .bnx-primary-header {
   padding: 0.5rem 1.5rem;
@@ -239,7 +604,7 @@
 
 .btn-head {
   background-color: #10385b;
-  color: black; }
+  color: white; }
 
 #line {
   background-color: #F5F5F5;
@@ -266,7 +631,7 @@
   line-height: normal; }
 
 .bnx-second-discription {
-  color: #FFF;
+  color: #000000;
   font-family: Poppins;
   font-size: 14px;
   font-style: normal;
@@ -379,386 +744,5 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal; }
-
-.blue-text {
-  color: black;
-  text-align: center;
-  font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 600;
-  padding-top: 12px; }
-
-.bnx-benifits-section {
-  background-image: url(../photos/Backgrounds/benifits.png);
-  width: 100%;
-  height: 527px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-left: 1.5rem;
-  padding-top: 4rem; }
-  .bnx-benifits-section h3 {
-    color: white;
-    font-family: Poppins;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 2.52px;
-    text-transform: uppercase; }
-  .bnx-benifits-section .bnx-benifits-section-row {
-    display: flex; }
-    .bnx-benifits-section .bnx-benifits-section-row h2 {
-      color: white;
-      font-family: Poppins;
-      font-size: 28px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: normal;
-      text-transform: capitalize; }
-
-.bnx-card {
-  margin-bottom: -100px; }
-
-.bnx-sixth-section-div {
-  margin-top: -150px;
-  z-index: 20;
-  position: relative; }
-  .bnx-sixth-section-div .bnx-sixth-section {
-    background-color: #fff;
-    margin: 0 2.5rem;
-    box-shadow: 0px 3px 13px 2px #00000024;
-    padding: 0 1rem; }
-
-.bnx-demo-section {
-  display: flex; }
-
-.bnx-demo-section-top {
-  display: flex; }
-
-.btn-demo-button button {
-  margin-left: 40px;
-  background: #10385B;
-  color: black; }
-
-.bnx-course-value-session {
-  background: #F1F5F8;
-  margin: auto;
-  padding-top: 200px;
-  margin-top: -160px;
-  position: relative;
-  z-index: 19; }
-  .bnx-course-value-session .bnx-course-value {
-    display: flex;
-    justify-content: space-around; }
-    .bnx-course-value-session .bnx-course-value .bnx-course-icon-tetx {
-      text-align: center;
-      justify-content: space-between; }
-      .bnx-course-value-session .bnx-course-value .bnx-course-icon-tetx h5 {
-        color: #10385B;
-        text-align: center;
-        font-family: Poppins;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal; }
-      .bnx-course-value-session .bnx-course-value .bnx-course-icon-tetx img {
-        width: 37px;
-        height: 31.295px;
-        flex-shrink: 0; }
-
-.bnx-intake-section {
-  background: #071D31;
-  padding: 2rem; }
-  .bnx-intake-section h1,
-  .bnx-intake-section h2,
-  .bnx-intake-section h3,
-  .bnx-intake-section h4,
-  .bnx-intake-section h5,
-  .bnx-intake-section h6,
-  .bnx-intake-section p {
-    color: black;
-    margin: 0; }
-  .bnx-intake-section .p-sm {
-    font-size: 0.875rem; }
-  .bnx-intake-section .p-grey {
-    color: #dbdbdb; }
-  .bnx-intake-section .box-full {
-    background: #03549F;
-    padding: 1rem 2rem; }
-    .bnx-intake-section .box-full h6 {
-      font-size: 18px;
-      font-weight: 600;
-      padding: 0.5rem 1rem 0.5rem 1rem;
-      border-left: 2px solid #04BBF2; }
-  .bnx-intake-section .half-box-parent {
-    display: grid;
-    grid-template-columns: 48% 48%;
-    grid-gap: 4%; }
-    @media (max-width: 768px) {
-      .bnx-intake-section .half-box-parent {
-        grid-template-columns: 98%;
-        grid-gap: 4%; } }
-  .bnx-intake-section .half-full {
-    background: #00315e;
-    padding: 1rem 2rem; }
-    .bnx-intake-section .half-full h6 {
-      font-size: 18px;
-      font-weight: 600;
-      padding: 0.5rem 1rem 0.5rem 1rem;
-      border-left: 2px solid #04BBF2; }
-    .bnx-intake-section .half-full button {
-      background: none;
-      border: none; }
-      .bnx-intake-section .half-full button img {
-        width: 2rem;
-        color: #04BBF2; }
-
-.bnx-second-row-right-below {
-  width: 100%; }
-
-footer {
-  width: 100%; }
-
-.bnx-footer-1 {
-  text-align: center;
-  display: flex;
-  justify-content: center; }
-  .bnx-footer-1 h5 {
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-align: center;
-    padding: 10px; }
-
-.bnx-footer-icon {
-  text-align: center;
-  display: flex;
-  justify-content: center; }
-  .bnx-footer-icon img {
-    padding-top: 5px;
-    padding-bottom: 5px; }
-
-.bnx-footer-copy {
-  justify-content: center;
-  display: flex;
-  text-align: center; }
-  .bnx-footer-copy h5 {
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal; }
-
-.bnx-about {
-  width: 100%; }
-
-.footer-main {
-  display: grid;
-  padding: 100px 2rem 3rem 2rem;
-  background: linear-gradient(72deg, #23133F 9.81%, #08205C 50.72%, #01326A 93.38%);
-  grid-template-columns: 14% 32% 14% 32%;
-  grid-gap: 2%; }
-  @media (max-width: 768px) {
-    .footer-main {
-      grid-template-columns: 50% 50%;
-      grid-template-rows: 50% 50%; } }
-  @media (max-width: 576px) {
-    .footer-main {
-      grid-template-columns: 100%;
-      grid-template-rows: 25% 25%; } }
-  .footer-main .f-sec1 {
-    display: flex;
-    flex-direction: column; }
-  .footer-main .f-sec2 {
-    display: flex;
-    flex-direction: row; }
-  .footer-main p {
-    color: black;
-    font-weight: 600;
-    margin-bottom: 1.25rem; }
-  .footer-main a {
-    color: black;
-    text-decoration: none;
-    font-size: 15px; }
-  .footer-main .border-rght {
-    border-right: 1px solid #6b6b6b; }
-
-.bnx-about-session {
-  width: 100%;
-  background: linear-gradient(72deg, #23133F 9.81%, #08205C 50.72%, #01326A 93.38%);
-  width: 100%;
-  display: flex;
-  justify-content: space-around; }
-
-.bnx-about-one {
-  padding-top: 94px;
-  padding-bottom: 100px; }
-  .bnx-about-one h3 {
-    color: black;
-    font-family: Poppins;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal; }
-  .bnx-about-one h2 {
-    color: black;
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal; }
-
-.bnx-aboutvector59 {
-  padding-top: 137px;
-  padding-left: 66px; }
-
-.bnx-about-three-row {
-  display: flex; }
-  .bnx-about-three-row h3 {
-    color: black;
-    font-family: Poppins;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal; }
-
-.bnx-about-three {
-  padding-top: 94px;
-  padding-left: 52px; }
-  .bnx-about-three h2 {
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal; }
-
-.bnx-about-seven {
-  padding-top: 94px;
-  padding-left: 52px; }
-  .bnx-about-seven h2 {
-    color: black;
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal; }
-
-.bnx-about-three-row-last {
-  display: flex; }
-
-.bnx-about-three-row-last-left h3 {
-  color: black;
-  font-family: Poppins;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal; }
-
-#last-card {
-  background-color: #2B98F7; }
-
-.col-last {
-  text-align: center; }
-
-.bnx-about-three-row-last-right {
-  padding-top: 20px; }
-  .bnx-about-three-row-last-right h3 {
-    color: black;
-    font-family: Poppins;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    padding-left: 35px; }
-
-.bnx-subscribe {
-  background-color: #1D7AD0;
-  color: #fff;
-  padding: 2rem;
-  margin: -6rem 2rem 0 2rem;
-  position: absolute;
-  width: calc(100vw - 5rem);
-  overflow: auto; }
-  .bnx-subscribe .input-group {
-    margin: 0; }
-  .bnx-subscribe button {
-    background: #10385B;
-    color: black;
-    border: none; }
-  .bnx-subscribe .subscribe-search-bar {
-    display: grid;
-    align-items: center; }
-
-.bnx-place-section {
-  display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  justify-content: space-around;
-  background: #E9E9E9;
-  padding: 1rem 1.5rem; }
-  @media (max-width: 768px) {
-    .bnx-place-section {
-      grid-template-columns: 50% 50%;
-      grid-template-rows: 33.33% 33.33% 33.33%; } }
-  @media (max-width: 576px) {
-    .bnx-place-section {
-      grid-template-columns: 100%;
-      grid-template-rows: 20% 20% 20% 20% 20%; } }
-
-.bnx-card {
-  padding-bottom: 150px; }
-  .bnx-card h1 {
-    color: #000;
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal; }
-  .bnx-card p {
-    color: #666;
-    font-family: Poppins;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal; }
-
-.testiomial-title {
-  text-align: center; }
-  .testiomial-title h4 {
-    font-size: 28px;
-    font-weight: 600; }
-  .testiomial-title p {
-    font-size: 14px;
-    font-weight: 400; }
-
-#testimonialCarousel h4 {
-  font-size: 18px;
-  color: #10385B;
-  font-weight: 600; }
-#testimonialCarousel p {
-  font-size: 0.875rem; }
-#testimonialCarousel .testimonial-card-sub {
-  background: #f6f6f6;
-  padding: 2rem 2rem 3rem 2rem; }
-#testimonialCarousel img {
-  margin-left: 1.875rem;
-  margin-bottom: -1.5rem; }
-#testimonialCarousel a {
-  text-decoration: none; }
-
-.req-a-demo-sec {
-  align-items: center; }
-  .req-a-demo-sec .req-d-col2 {
-    border: 1px solid #e5e5e5;
-    border-width: 0 0 0 1px; }
-  .req-a-demo-sec button {
-    background: #10385B;
-    color: black;
-    border: none; }
 
 /*# sourceMappingURL=style.css.map */

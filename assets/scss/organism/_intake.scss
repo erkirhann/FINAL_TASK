@@ -1,0 +1,111 @@
+
+
+.bnx-second-section-title {
+    display: flex;
+}
+
+.bnx-title-two {
+    padding-left: 45px;
+    color: #10385B;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.bnx-card-section {
+    padding-top: 35px;
+    display: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bnx-section-four-head {
+    padding-top: 40px;
+    padding-left: 45px;
+    color: black ;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+.bnx-fourth-section {
+
+    background-image: url(../photos/Backgrounds/Rectangle\ 34624443.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    span,
+    h5,
+    p {
+        color: black;
+        margin-bottom: 0;
+    }
+
+    .bnx-sec4-icon-box {
+        img {
+            width: 2rem;
+            height: 2rem;
+        }
+
+        .icon-text {
+
+            display: flex;
+            align-items: center;
+            grid-gap: 0.25rem;
+            font-weight: 500;
+        }
+    }
+
+
+
+
+    .bnx-sec-4-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+}
+
+.bnx-demo-title {
+    color: #10385B;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+
+    text-transform: capitalize;
+}
+
+.bottom-blue-box {
+    background: #2b98f7;
+    padding: 1rem 2rem;
+}
+
+.bnx-demo-right {
+    h4 {
+        color: #10385B;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+
+    p {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+
+
+
+
+
+
