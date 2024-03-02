@@ -70,7 +70,8 @@ footer {
     line-height: normal; }
 
 .bnx-about {
-  width: 100%; }
+  width: 100%;
+position: relative; }
 
 .footer-main {
   display: grid;
@@ -227,9 +228,10 @@ footer {
   background-color: #1D7AD0;
   color: #ffffff;
   padding: 2rem;
-  margin: -6rem 2rem 0 2rem;
+  left: 5%;
+  top:-85px;
+  right: 10%;
   position: absolute;
-  width: calc(100vw - 5rem);
   overflow: auto; }
   .bnx-subscribe .input-group {
     margin: 0; }
@@ -610,7 +612,8 @@ footer {
   height: 2px; }
 
 .hero-section {
-  background-image: url(/assets/photos/Backgrounds/Rectangle4012.png);
+  
+  background-image: url(../../assets/photos/Backgrounds/Rectangle4012.png);
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover; }
